@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        CRUD OPERATION sheCRAFTS
+    </title>
+    <link rel="stylesheet" href="./static/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="heading">PRODUCT UPDATION</h2>
+
+        <table>
+            <tr>
+                <td>
+                    <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                        <div>
+                            <label>PRODUCT NAME*</label><label class="validation-error hide"
+                                id="productNameValidationError">This field is required.</label>
+                            <input type="text" name="productNAME" id="productName">
+                        </div>
+                        <div>
+                            <label>PRODUCT CODE</label>
+                            <input type="text" name="productCode" id="productCode">
+                        </div>
+                        <div>
+                            <label>PRICE</label>
+                            <input type="text" name="price" id="price">
+                        </div>
+                        <div>
+                            <label>DESCRIPTION</label>
+                            <input type="text" name="description" id="description">
+                        </div>
+                        <div class="form-action-buttons">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </td>
+                <td>
+                    <table class="list" id="productList">
+                        <thead>
+                            <tr>
+                                <th>Product Name</th>
+                                <th>Product Code</th>
+                                <th>Price</th>
+                                <th>Description</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <script src="./static/script.js"></script>
+</body>
+
+</html>
+<!-- product image -->
+<div class="product-info">
+    <div class="product-image">
+        <p class="text">PRODUCT IMAGE</p>
+    </div>
+    <div class="upload-image-sec">
+        <!-- upload inputs -->
+        <p class="text"><img src="img/camera.png" alt="">Upload image</p>
+        <div class="upload-catalouge">
+            <input type="file" class="fileupload" id="first-file-upload-btn" hidden>
+            <label for="first-file-upload-btn" class="upload-image"></label>
+            <input type="file" class="fileupload" id="second-file-upload-btn" hidden>
+            <label for="second-file-upload-btn" class="upload-image"></label>
+            <input type="file" class="fileupload" id="third-file-upload-btn" hidden>
+            <label for="third-file-upload-btn" class="upload-image"></label>
+            <input type="file" class="fileupload" id="fourth-file-upload-btn" hidden>
+            <label for="fourth-file-upload-btn" class="upload-image"></label>
