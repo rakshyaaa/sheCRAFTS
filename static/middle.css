@@ -1,0 +1,71 @@
+
+section#first #myphoto{
+    width: 100%;
+    height: 600px;
+}
+section#second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section#second p.myscroll{
+    font-size: 1.5rem;
+}
+section#second marquee.scroll{
+    font-size: 1.5rem;
+    margin: 0px 10%;
+    width: 80%;
+    behavior: alternate;
+    direction: left;
+    padding: 10px 0px;
+    background-color: teal;
+}
+#home-fascilities{
+    /* font-family: Preeti; */
+    margin-top: 20px;
+    font-size: 2rem;
+}
+section#second ul#fascilites-list{
+    margin-left: 20%;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+section#second h1.course-title{
+    margin-top: 15px;
+    font-size: 2rem;
+}
+section#second ul{
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+section#second ul.courses li{
+    text-decoration: none;
+}
+section#second img.principal-photo{
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+
+}
+section#second #speech{
+    font-size: 1.3rem;
+    margin: 0px 10px;
+}
+#speech{
+    font-size: 1.3rem;
+    /* margin: 0px 10px; */
+}
+section#second #speech #more{          /*This helps initially hiding the text*/
+    display: block;
+    
+}
+section#second #speech #dots{          /*This helps initially hiding the text*/
+    display: none;
+
+}
+
+
+.my-map{
+    background-color: skyblue;
+}
